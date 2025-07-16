@@ -10,7 +10,7 @@ from openpyxl import load_workbook
 #Criar planilha
 equipamentos = []
 
-planilha = load_workbook(r"entradas\dados.xlsx")
+planilha = load_workbook(r"busca inmetro\entradas\dados.xlsx")
 
 aba_ativa = planilha["Sheet1"]
 for celula in aba_ativa["A"]:
